@@ -84,5 +84,6 @@ describe('Tes login tanpa username / password', async() => {
         await submit.click()
         await driver.pause(1000)
         await expect(errormsg).to.exist
+        await driver.deleteSession()
     })
 })

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --no-timeouts tests/negativetestlogout.js"
+    "test": "mocha --no-timeouts tests/negativetestlogout.spec.js"
   },
   "keywords": [],
   "author": "",
