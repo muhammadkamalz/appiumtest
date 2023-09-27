@@ -1,0 +1,19 @@
+{
+  "name": "belajarappium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --no-timeouts tests/negativetestlogout.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.8",
+    "mocha": "^10.2.0",
+    "selenium": "^2.20.0",
+    "wdio": "^6.0.1",
+    "webdriverio": "^8.16.15"
+  }
+}
