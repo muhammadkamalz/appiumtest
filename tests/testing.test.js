@@ -5,7 +5,7 @@ const shipping = require('../pageobjects/halamanshipping')
 const checkout = require('../pageobjects/halamancheckout')
 const {expect} = require('chai')
 
-describe.only('Proses Fungsi Utama', async() => {
+describe('Proses Fungsi Utama', async() => {
 
     before(async() => {
         driver = await boot()
